@@ -10,9 +10,6 @@ for a in range(1, 5):
     idade = int(input('idade: '))
     sexo = str(input('sexo [M/F]: ')).upper()
     soma += idade
-    if a == 1 and sexo == 'M':
-        maioridadem = idade
-        nomevelho = nome
     if sexo == 'M' and idade > maioridadem:
         maioridadem = idade
         nomevelho = nome
